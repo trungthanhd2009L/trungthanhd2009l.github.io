@@ -1,0 +1,233 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: roboto;
+	scroll-behavior: smooth;
+}
+@font-face{
+	font-family: roboto;
+	src: url("../font/RobotoSlab-Regular.ttf");
+}
+@font-face{
+	font-family: roboto-bold;
+	src: url("../font/RobotoSlab-Bold.ttf");
+}
+.banner{
+	height: 100vh;
+	width: 100%;
+	background-size:cover ;
+	background-position:center;
+	background-image: url( "../images/banner1.jpg");
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	
+}
+.topbar{
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	width: 100%;
+	padding: 30px 100px;
+	font-size: 20px
+}
+.topbar .top{
+	padding: 10px 50px
+}
+.banner .text_banner{
+	height: 50%;
+	width: 50%;
+	margin: 35vh auto;
+	opacity: 35%;
+	color: blue;
+		
+}
+.topbar nav .btn_book{
+	background-color: #8FD4D6;
+	height: 40px;
+}
+.topbar nav .menu li{
+	margin: 0 50px;
+}
+.topbar nav .menu li a:hover{
+	transform: scale(1.1);
+}
+.topbar .btn:hover{
+	background-color: darkgreen;
+	transform: scale(1.05)
+}
+.title h1{
+	width: 100%;
+	font-family: roboto-bold;
+	font-weight: 700;
+	font-size: 120px;
+	color: #5d799a;
+	float:left;
+	position: absolute;
+	left: 100px;
+	top: 25vh;
+}
+#myBtn{
+	position: fixed;
+	z-index: 999;
+	bottom: 10px;
+	right: 10px;
+	color: #5d799a;
+	border: none;
+	background-color: none;
+}
+#myBtn:hover{
+	color:#005CFF ;
+	border: none;
+	background-color: none;
+	transform: scale(1.1);
+}
+.section1{
+	width: 70%;
+	height: 800px;
+	margin: 100px auto;
+}
+.s1 .noidung1,.hinhanh1{
+	height: 600px;
+}
+.hinhanh1 {
+	background-image: url("../images/hinhanh1.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.text_tour{
+	text-align: center
+}
+.text_tour p{
+	font-size: 24px;
+	color: #8FD4D6;
+}
+.text_tour h1{
+	font-size: 4.5rem;
+	margin-bottom: 50px;
+}
+.row1,.row2,.row3{
+	justify-content: space-around;
+	margin: 200px 0;
+}
+.img_tour{
+	width: 80%;
+	margin: 0 auto;
+}
+.img_tour img{
+	height: 300px
+}
+a.button{
+	background-color: #8FD4D6;
+}
+button.button2{
+	height: 100px;
+	width: 300px;
+	font-size: 40px;
+	margin: 0 auto;
+}.services .btn:hover{
+	transform: scale(1.1);
+	background-color: forestgreen;
+}
+.giatien .btn:hover{
+	transform: scale(1.1);
+	background-color: forestgreen;
+}
+section .card_tour{
+	margin: 0 auto;
+}
+.carousel_card{
+	margin: 0 auto;
+	height: 300px;
+	width: 400px;
+}
+#testimonial{
+	background-color: #8FD4D6;
+	height: 900px;
+	box-sizing: border-box;
+}
+#testimonial .text_carousel{
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+}
+#testimonial .text_carousel p{
+	padding: 30px 0  0;
+	font-size: 24px;
+}
+#testimonial .text_carousel h1{
+	font-size: 4.5rem;
+	margin-bottom: 50px;
+}
+
+.carousel1{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center
+}
+.img_carousel1{
+	background-image: url( "../images/carousel1.png");
+	height: 200px;
+	width: 200px;
+	background-size: cover;
+	margin: 0 auto;
+}
+.img_carousel2{
+	background-image: url( "../images/carousel2.png");
+	height: 200px;
+	width: 200px;
+	background-size: cover;
+	margin: 0 auto;
+}
+.img_carousel3{
+	background-image: url( "../images/carousel3.png");
+	height: 200px;
+	width: 280px;
+	background-size: cover;
+	margin: 0 auto;
+}
+.carousel i{
+	color: rgba(255,166,0,1.00);
+	font-size: 25px;
+}
+.carousel p{
+	font-size: 20px;
+}
+section{
+	margin: 50px 0 !important;
+}
+.item{
+	width: 250px;
+	height: 250px;
+	border-radius: 20px;
+	background-color:  #5d799a;
+	margin: 0 auto
+}
+.contact{
+	margin: 0 auto!important;
+}
+.mess{
+	border-radius: 20px;
+	background-color:  #5d799a;
+	box-sizing: border-box;
+	padding: 20px 0
+}
+#contact textarea{
+	height: 180px;
+}
+.send{
+	background-color: white!important;
+}
+.icon{
+	padding: 60px 0;
+	color: white;
+}
+footer{
+	height: 400px;
+	background-color: #5d799a;
+}
+.foot{
+	height: 300px;
+	border-bottom: double
+}
